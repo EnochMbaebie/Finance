@@ -1,0 +1,11 @@
+*.sol linguist-language=Solidity
+
+*.node_modules
+.node_modules
+gitignore
+/node_modules
+.package-lock
+.flow_diagrams
+.gridmix-sol
+.outline
+.BIP39 - Mnemonic Code

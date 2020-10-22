@@ -1,3 +1,5 @@
- var gridMix = artifacts.require("./gridMix.sol");
+const masterSLEC = artifacts.require("masterSLEC");
 
-module.exports = function(deployer) { deployer.deploy(gridMix); };
+module.exports = function(deployer) {
+  deployer.deploy(masterSLEC);
+};
